@@ -1,0 +1,49 @@
+// 全局样式
+$primary-color: #07c160;
+$warning-color: #ff9500;
+$danger-color: #ee0a24;
+$text-color: #323233;
+$text-color-2: #646566;
+$text-color-3: #969799;
+$border-color: #ebedf0;
+$background-color: #f7f8fa;
+
+// 重置样式
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+// 通用类
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
